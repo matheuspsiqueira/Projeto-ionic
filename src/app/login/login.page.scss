@@ -1,0 +1,31 @@
+ion-input{
+    background-color: rgba(0, 0, 0, 0.795);
+    color: rgb(162, 0, 255);
+    width: 300px;
+  }
+  
+  .login{
+    margin-top: 250px;
+    margin-left: 40px;
+  }
+  
+  .senha{
+    margin-left: 40px;
+  }
+  
+  ion-button.button{
+    margin-left: 240px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.719);
+    --background: rgba(136, 92, 255, 0.671);
+  }
+  
+  ion-button.button:hover{
+    color: rgb(0, 0, 0);
+    --background: rgb(162, 0, 255);
+  
+  }
+  
+  ion-content.background{
+    --background: url(https://mfiles.alphacoders.com/812/812479.jpg) 0 0/100% 100% no-repeat;
+  }

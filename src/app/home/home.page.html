@@ -1,0 +1,12 @@
+<ion-content class="background">
+
+  <ion-input label="Login" [(ngModel)]="username" label-placement="floating" fill="solid" placeholder="Digite" class="login"></ion-input>
+  <br />
+  <ion-input label="Senha" [(ngModel)]="password" type="password" label-placement="floating" fill="outline" placeholder="Digite" class="senha"></ion-input>
+
+  <ion-button class="button" (click)="onLogin()">
+    <ion-icon name="key" class="icon"></ion-icon>
+    Entrar
+  </ion-button>
+
+</ion-content>

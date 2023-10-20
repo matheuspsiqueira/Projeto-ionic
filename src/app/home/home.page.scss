@@ -1,0 +1,31 @@
+ion-input{
+  background-color: rgba(0, 0, 0, 0.205);
+  color: rgb(8, 250, 0);
+  width: 300px;
+}
+
+.login{
+  margin-top: 250px;
+  margin-left: 40px;
+}
+
+.senha{
+  margin-left: 40px;
+}
+
+ion-button.button{
+  margin-left: 240px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  --background: rgba(92, 217, 255, 0.596);
+}
+
+ion-button.button:hover{
+  color: rgb(0, 0, 0);
+  --background: rgb(92, 217, 255);
+
+}
+
+ion-content.background{
+  --background: url(https://w0.peakpx.com/wallpaper/135/982/HD-wallpaper-hogwarts-legacy-harry-harry-potter-potter.jpg) 0 0/100% 100% no-repeat;
+}
